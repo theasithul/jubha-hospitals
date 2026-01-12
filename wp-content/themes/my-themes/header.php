@@ -6,7 +6,7 @@
 <?php wp_body_open(); ?>
 <body <?php body_class(); ?>>
     <header>
-        <div class="container">
+        <div class="menu-section">
             <div class="menu-top">
                 <a href="" class="logo">
                     <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
