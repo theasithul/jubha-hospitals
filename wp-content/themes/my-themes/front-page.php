@@ -19,7 +19,7 @@
   </div>
 
   <div class="slide">
-    <img src="img2.jpg" alt="">
+    <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/pet2.jpg" alt="">
     <div class="slide-content">
       <h2>Development</h2>
       <p>Fast and secure web applications</p>
@@ -28,7 +28,7 @@
   </div>
 
   <div class="slide">
-    <img src="img3.jpg" alt="">
+    <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/becoming-doctor.jpg" alt="">
     <div class="slide-content">
       <h2>Marketing</h2>
       <p>Grow your business online</p>
@@ -53,4 +53,3 @@ setInterval(() => {
 
     </script>
 </body>
-<?php get_footer(); ?>
