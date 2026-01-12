@@ -42,7 +42,7 @@
 
 
     <script>
-        const slides = document.querySelectorAll(".auto-slider .slide");
+           const slides = document.querySelectorAll(".auto-slider .slide");
 let currentIndex = 0;
 
 setInterval(() => {
