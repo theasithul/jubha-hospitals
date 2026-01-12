@@ -1,3 +1,9 @@
+<head>
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <?php wp_head(); ?>
+</head>
+
 <footer class="site-footer">
     <div class="footer-top">
         <div class="container footer-top-inner">
