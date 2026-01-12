@@ -13,6 +13,8 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+     position: fixed;
+    z-index: 10;
 }
 
 
@@ -66,6 +68,7 @@ body {
 
 
 .menu-link {
+  width: 100%;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -73,6 +76,7 @@ body {
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
     background-color: #eaeaebf3;
+   
   }
 
   .menu-link ul {      
