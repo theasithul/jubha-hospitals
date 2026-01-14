@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .site-footer {
     font-family: Arial, sans-serif;
     color: #131111;
@@ -208,7 +208,7 @@
         grid-template-columns: 1fr;
     }
 }
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -545,4 +545,3 @@ body {
     display: none;
   }
 }
->>>>>>> b8faf9db2217f52b8d059aecd761dda731aa3459
