@@ -17,8 +17,8 @@
 
     <nav class="nav">
       <ul class="menu">
-
-        <li><a href="#" <?= home_url(); ?>>Find A Doctor</a></li>
+        <li><a href="#" <?= home_url(); ?>>Home</a></li>
+        <li><a href="#" <?= home_url(); ?>/find-a-doctor>Find A Doctor</a></li>
 
         <li class="dropdown">
           <a href="#" <?= home_url(); ?>/hospital-&-clinics>Hospital & Clinics</a>
