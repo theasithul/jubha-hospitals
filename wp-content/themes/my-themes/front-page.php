@@ -30,7 +30,7 @@
   </div>
 </section>
 
-<!-- SERVICES -->
+
 <section class="services">
   <div class="container">
     <div class="services-header">
@@ -62,7 +62,7 @@
   </div>
 </section>
 
-<!-- VISION -->
+
 <section class="vision">
   <div class="container vision-grid">
     <div class="vision-image">

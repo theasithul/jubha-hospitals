@@ -1,22 +1,23 @@
-<<<<<<< HEAD
+
+
 .site-footer {
     font-family: Arial, sans-serif;
     color: #131111;
 }
 
 .footer-top {
+    background: #fff;
     padding: 40px 0;
 }
 
 .footer-top-inner {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 900px;
-}
-
-.footer-top h2 {
-    margin: 0 0 8px;
+    gap: 20px;
 }
 
 .btn-outline {
@@ -29,33 +30,27 @@
 
 .footer-main {
     background: #eaeaebf3;
-    padding: 10px 10px;
-    color: black;
+    padding: 40px 0;
 }
 
 .container {
-    width: 100%;
-    
-}
-
-.footer-logo {
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .footer-logo img {
-    width: 200px;
-    padding: 0 50px;
+    width: 180px;
+    margin-bottom: 30px;
 }
 
 .footer-columns {
-    display: flex;
-    gap: 130px;
-    margin-bottom: 40px;
-    padding: 0 70px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
 }
 
 .footer-col h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
@@ -66,7 +61,7 @@
 }
 
 .footer-col ul li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .footer-col ul li a {
@@ -79,117 +74,44 @@
     text-decoration: underline;
 }
 
-.footer-social{
-    font-size: 25px;
-    margin-top: 28px;
+.footer-social {
+    margin-top: 15px;
+    font-size: 22px;
 }
 
 .footer-social a {
     color: #131111;
-    text-decoration: none;
-    font-weight: bold;
+    margin-right: 10px;
 }
-.footer-col form input{
+
+.footer-col input {
+    width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
-.footer-col button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: blue;
+
+.footer-col button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: blue;
     color: white;
     border: none;
+    margin-left: 140px;
 }
 
 .footer-bottom {
-    border-top: 1px solid #2a3b5f;
-    display: flex;
-    background-color: #eaeaebf3;
+    background: #eaeaebf3;
+    border-top: 1px solid #ccc;
+    text-align: center;
 }
-.footer-bottom p{
-    margin: auto;
+
+.footer-bottom p {
+    margin: 0;
     padding: 15px;
 }
-.footer-bottom a {
-    color: #4da3ff;
-}
-
-
-.find{
-    width: 100%;
-    background-color: #4da3ff;
-}
-.find-doctor{
-    width: 100%;
-}
-.find-doctor img{
-    width: 100%;
-    height: 70%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 900px) {
@@ -199,7 +121,7 @@
 
     .footer-top-inner {
         flex-direction: column;
-        align-items: flex-start;
+        text-align: center;
     }
 }
 
@@ -208,7 +130,10 @@
         grid-template-columns: 1fr;
     }
 }
-=======
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -351,7 +276,7 @@ body {
 
 
 
-<!--hero-section-->
+
 
 
 .hero {
@@ -483,7 +408,7 @@ body {
   display: none;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 900px) {
   .hero-grid,
   .vision-grid {
@@ -508,7 +433,7 @@ body {
     font-size: 32px;
   }
 }
-/* Responsive */
+
 @media (max-width: 992px) {
   .menu-icon {
     display: block;
@@ -545,4 +470,4 @@ body {
     display: none;
   }
 }
->>>>>>> b8faf9db2217f52b8d059aecd761dda731aa3459
+
