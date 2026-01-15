@@ -342,13 +342,15 @@ body {
     width: 100%;
     border-radius: 6px;
 }
+.text {
+  width: 71%;
+  margin: auto;
+}
 
-
-
-
-
-
-
+.text-section{
+  width: 100%;
+  background-color: #10eeea;
+}
 
 
 
