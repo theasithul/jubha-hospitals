@@ -342,6 +342,7 @@ body {
 .text {
   width: 71%;
   margin: auto;
+}
 
 @media (max-width: 900px) {
   .hero-grid,
