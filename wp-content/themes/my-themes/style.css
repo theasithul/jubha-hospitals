@@ -1,5 +1,4 @@
 
-
 .site-footer {
     font-family: Arial, sans-serif;
     color: #131111;
@@ -257,8 +256,6 @@ body {
 }
 
 
-
-
 .hero {
     height: 400px;
     background: url('http://jubha-hospitals.test/wp-content/uploads/2026/01/hospital.jpg') center/cover no-repeat;
@@ -346,6 +343,20 @@ body {
   width: 71%;
   margin: auto;
 }
+@media (max-width: 900px) {
+  .hero-grid,
+  .vision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .appointment-box {
+    flex-direction: column;
+  }
+}
 
 .text-section{
   width: 100%;
@@ -428,3 +439,19 @@ body {
   margin-left: 80px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 992px) {
+  .menu-icon {
+    display: block;
+  }
+
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .actions {
+    display: none;
+  }
+}
+
