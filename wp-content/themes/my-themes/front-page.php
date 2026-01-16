@@ -19,7 +19,7 @@
         <div class="input">Dhaka, Bangladesh</div>
         <div class="input">18 February, 2023</div>
         <div class="input">03 Adults, 02 Child</div>
-        <button>Search</button>
+        <button class="btn-top">Search</button>
       </div>
     </div>
 
@@ -80,7 +80,7 @@
         <li>✔ Modern medical equipment</li>
         <li>✔ Patient-centered care</li>
       </ul>
-      <a href="#" class="btn">Learn More</a>
+      <a href="#" class="btn-top-2">Learn More</a>
     </div>
   </div>
 </section>
