@@ -34,6 +34,25 @@
 <div class="text-section">
     <div class="text-hero">
         <p>Establishing itself as the center for healthcare excellence in the Kingdom, Almana presently employs more than 6,500+ highly qualified professionals including 800+ specialized doctors and has extended its services to operating and managing healthcare contracts in other regions of Saudi Arabia.</p>
+        <div class="text-box">
+            <div class="box1">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>6600</h3>
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-user-doctor"></i>
+                <h3>900</h3>
+            </div>
+        </div>
+        <div class="text-box">
+            <div class="box3">
+                <p>Qualified <br> professionals</p>
+                
+            </div>
+            <div class="box4">
+                <p>Specialized <br> doctors</p>
+            </div>
+        </div>
     </div>
 </div>
 
