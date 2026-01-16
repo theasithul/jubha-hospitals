@@ -1,6 +1,4 @@
 
-
-
 .site-footer {
     font-family: Arial, sans-serif;
     color: #131111;
@@ -132,9 +130,6 @@
     }
 }
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -261,154 +256,92 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero {
-  height: 100vh;
-  background: #ffffff;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
+    height: 400px;
+    background: url('http://jubha-hospitals.test/wp-content/uploads/2026/01/hospital.jpg') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
 }
 
-.hero-grid {
-  height: 100vh;
-  margin-top: 170px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
 }
 
-.hero-text h1 {
-  font-size: 42px;
-  margin-bottom: 20px;
+.hero-content {
+    position: relative;
+    color: #fff;
+}
+.hero-content h1{
+  font-size: 40px;
+}
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
 }
 
-.hero-text p {
-  color: #777;
-  margin-bottom: 30px;
+.breadcrumb {
+    background: #0bb3a6;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
 }
 
-.hero-image img {
-  width: 100%;
-  border-top-left-radius: 100px;
+.breadcrumb a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* APPOINTMENT BOX */
-.appointment-box {
-  background: #fff;
-  display: flex;
-  gap: 15px;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+.content {
+    display: flex;
+    gap: 40px;
+    padding: 60px 0;
 }
 
-.appointment-box .input {
-  background: #f4f7fa;
-  padding: 12px 15px;
-  border-radius: 8px;
-  font-size: 14px;
+.content-left {
+    flex: 1;
 }
 
-.appointment-box button {
-  background: #2bbf9a;
-  color: #fff;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 8px;
-  cursor: pointer;
+.content-left h2 {
+    color: #0a6c6a;
+    margin-bottom: 20px;
 }
 
-/* SERVICES */
-.services {
-  background: #2bbf9a;
-  padding: 70px 0;
-  color: #fff;
+.info-list {
+    list-style: none;
 }
 
-.services-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
+.info-list li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.6;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 25px;
+.info-list li::before {
+    content: "•";
+    color: #0bb3a6;
+    font-size: 22px;
+    position: absolute;
+    left: 0;
+    top: -2px;
 }
 
-.service-card {
-  background: #fff;
-  color: #333;
-  padding: 25px;
-  border-radius: 14px;
+.content-right {
+    flex: 1;
 }
 
-/* VISION */
-.vision {
-  padding: 80px 0;
-  background: #fff;
+.content-right img {
+    width: 100%;
+    border-radius: 6px;
 }
-
-.vision-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  align-items: center;
-}
-
-.vision-image img {
-  width: 100%;
-}
-
-.vision-text ul {
-  margin: 20px 0;
-}
-
-.vision-text li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.btn-outline {
-  display: inline-block;
-  background: #ffffff;
-  color: #000000;
-  padding: 12px 25px;
-  border-radius: 30px;
-  border: 1px solid #ffffff;
-  text-decoration: none;
-}
-
-.btn-outline:hover {
-  background: #2bbf9a;
-  color: #fff;
-}
-
-#menu-toggle {
-  display: none;
-}
-
+.text {
+  width: 71%;
+  margin: auto;
 
 @media (max-width: 900px) {
   .hero-grid,
@@ -425,43 +358,18 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-text h1 {
-    font-size: 32px;
-  }
+.text-section{
+  width: 100%;
+  background-color: #10eeea;
 }
+
+
 
 @media (max-width: 992px) {
   .menu-icon {
     display: block;
   }
 
-  .nav {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: #0f4c5c;
-    display: none;
-  }
-
-  #menu-toggle:checked + .menu-icon + .nav {
-    display: block;
-  }
-
-  .menu {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .dropdown-menu {
-    position: static;
-    box-shadow: none;
-  }
 
   .dropdown:hover .dropdown-menu {
     display: block;
