@@ -34,7 +34,87 @@
 <div class="text-section">
     <div class="text-hero">
         <p>Establishing itself as the center for healthcare excellence in the Kingdom, Almana presently employs more than 6,500+ highly qualified professionals including 800+ specialized doctors and has extended its services to operating and managing healthcare contracts in other regions of Saudi Arabia.</p>
+        <div class="text-box">
+            <div class="box1">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>6600</h3>
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-user-doctor"></i>
+                <h3>900</h3>
+            </div>
+        </div>
+        <div class="text-box">
+            <div class="box3">
+                <p>Qualified <br> professionals</p>
+                
+            </div>
+            <div class="box4">
+                <p>Specialized <br> doctors</p>
+            </div>
+        </div>
     </div>
 </div>
+<div class="box-heath">
+    <div class="heath-text">
+        <p>Transforming healthcare in the Eastern Province. <br>We deliver a wide range of high-quality services, <br>built on an exellence legacy of exceptional health.</p>
+    </div>
+    <div class="heath-box">
+        <div class="boxx">
+            <i class="fa-solid fa-heart-circle-bolt"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-bed-pulse"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-pump-medical"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-heart-circle-bolt"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+    </div> <br>
+    <div class="heath-box">
+        <div class="boxx">
+            <i class="fa-solid fa-book-medical"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-dumpster-fire"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-briefcase-medical"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-heart-circle-bolt"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-suitcase-medical"></i>
+            <p>Cardiac Surgery</p>
+        </div>
+    </div>
+</div>
+
+<section class="content container">
+    <div class="content-right">
+        <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/l_history_img_2.jpg" alt="Visitor Desk">
+    </div>
+
+    <div class="content-left">
+        <h2>The Visionary Behind </h2>
+        <h4>Driven by the concern to provide healthcare services for the local community, Sheikh Mohammed Abdulla Almana opened the doors of the first healthcare center in the Eastern Province in 1949.</h4> <br>
+        <span>The beginning was a humble effort. The Group began with modest sized clinics for dental and ophthalmic care. Over the decades these clinics expanded into five large independent ultra-modern hospitals with 3 additional specialized medical centers with out-patient services and medical dispensaries in the four major cities of the Eastern Province, namely, Al-Asha Dammam, Al-Khobar and Jubail. <br><br> To earn the Gold Certification, Almana had to meet Planetree's rigorous criteria. This criteria focused on quality in healthcare delivery, effective communication with patients and their families, compassion, transparency, inclusion, and a strong emphasis on partnership. <br><br> Almana’s exceptional team of healthcare professionals, state-of-the-art facilities, and advanced technologies were instrumental in meeting these criteria. Personalized care and patient empowerment are prioritized at Almana Hospital, fostering trust and dignity. <br><br> This Gold Certification validates Almana Hospital's unwavering dedication to person-centered care, creating an environment where patients and families feel empowered and engaged in their care journey. It positions them as a global leader in person-centered healthcare, setting the standard for excellence. <br><br> At Almana Hospital, the patient's voice is key in shaping their healthcare experience. They prioritize patient well-being and satisfaction, offering comprehensive and personalized care that exceeds expectations. By involving patients in their care decisions, Almana Hospital fosters a genuine partnership between patients and healthcare providers.</span> <br><br>
+    </div>
+</section>
 
 <?php get_footer(); ?>
