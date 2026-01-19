@@ -361,8 +361,136 @@ body {
 
 .text-section{
   width: 100%;
-  background-color: #10eeea;
+  height: 450px;
+  background: url('http://jubha-hospitals.test/wp-content/uploads/2026/01/about-.jpg') center/cover no-repeat;
 }
+.text-hero{
+  width: 47%;
+  margin-left: 220px;
+  margin-top: 50px;
+  padding: 50px;
+}
+.text-hero p{
+  font-size: 23px;
+  color: #ffffff;
+}
+.text-box{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.box1{
+  width: 30%;
+  background-color: #0a6c6a;
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 15px;
+}
+.box1 i{
+ font-size: 35px; 
+ margin-left: 20px;
+ color: #ffffff;
+}
+.box1 h3{
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.box2{
+  width: 30%;
+  background-color: #0a6c6a;
+  display: flex;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 15px;
+}
+.box2 i{
+  font-size: 35px; 
+  margin-left: 20px;
+  color: #ffffff;
+}
+.box2 h3{
+  font-size: 35px;
+  color: #ffffff;
+}
+.box-text{
+  width: 100%;
+  background-color: #f0f4f8;
+  margin: 0;
+}
+
+.box3{
+  width: 30%;
+  background-color: #0a6c6a;
+  display: flex;
+}
+.box3 p{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.box4{
+  width: 30%;
+  background-color: #0a6c6a;
+  display: flex;
+}
+.box4 p{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.box-heath{
+  width: 100%;
+  background-color: #0a6c6a;
+  padding: 30px;
+}
+.heath-text{
+  width: 40%;
+  margin-left: 220px;
+  
+}
+.heath-text p{
+  font-size: 25px;
+  color: #ffffff;
+  padding: 30px;
+ 
+}
+.heath-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.boxx{
+  width: 18%;
+  border: 1px solid #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+}
+.boxx i{
+  font-size: 50px;
+  margin-left: 90px;
+  padding: 15px;
+}
+.boxx p{
+  font-size: 20px;
+  margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
