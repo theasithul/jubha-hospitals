@@ -13,11 +13,11 @@
     <nav class="nav">
         <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
       <ul class="menu">
-        <li><a href="#" <?= home_url(); ?>>Home</a></li>
-        <li><a href="#" <?= home_url(); ?>/find-a-doctor>Find A Doctor</a></li>
+        <li><a href="<?= home_url(); ?>">Home</a></li>
+        <li><a href="<?= home_url(); ?>/find-a-doctor">Find A Doctor</a></li>
 
         <li class="dropdown">
-          <a href="#" <?= home_url(); ?>/hospital-&-clinics>Hospital & Clinics</a>
+          <a href="<?= home_url(); ?>/hospital-&-clinics">Hospital & Clinics</a>
           <ul class="dropdown-menu">
             <li><a href="#">All Locations</a></li>
             <li><a href="#">Phnom Penh</a></li>
@@ -26,7 +26,7 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" <?= home_url(); ?>/patient-information>Patient Information</a>
+          <a href="<?= home_url(); ?>/patient-information">Patient Information</a>
           <ul class="dropdown-menu">
             <li><a href="#">Patient</a></li>
             <li><a href="#">Visitor Information</a></li>
@@ -34,7 +34,7 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" <?= home_url(); ?>/about-us>About Us</a>
+          <a href="<?= home_url(); ?>/about-us">About Us</a>
         </li>
 
         <!-- <li class="dropdown">
@@ -46,7 +46,7 @@
         </li> -->
 
         <li class="dropdown">
-          <a href="#" <?= home_url(); ?>/contact>Contact</a>
+          <a href="<?= home_url(); ?>/contact">Contact</a>
           <ul class="dropdown-menu">
             <li><a href="#">Got In Touch</a></li>
             <li><a href="#">Suggestion</a></li>
