@@ -21,39 +21,36 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 100%;
   margin: auto;
   padding: 15px 20px;
-  display: grid;
   align-items: center;
 }
 
 
 .menu-bar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
-.logo {
-  margin: auto;
+.nav img {
+  height: 50px;
 }
-
-.logo img {
-  height: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 
 .nav {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .menu {
   list-style: none;
   display: flex;
-  gap: 25px;
+  justify-content: center;
+  gap: 20px;
 }
 
 .menu li {
@@ -61,10 +58,10 @@ body {
 }
 
 .menu a {
+  gap: 10px;
   color: #fff;
   text-decoration: none;
   font-size: 17px;
-  padding: 10px 0;
   display: block;
 }
 
@@ -153,7 +150,7 @@ body {
 
 .hero-grid {
   height: 100vh;
-  margin-top: 170px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -171,7 +168,7 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 90%;
   border-top-left-radius: 100px;
 }
 

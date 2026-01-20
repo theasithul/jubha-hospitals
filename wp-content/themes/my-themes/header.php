@@ -7,15 +7,13 @@
 <?php wp_body_open(); ?>
 <header class="header">
   <div class="container">
-    <div class="logo">
-        <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
-    </div>
     <div class="menu-bar">
     
     <input type="checkbox" id="menu-toggle">
     <label for="menu-toggle" class="menu-icon">☰</label>
 
     <nav class="nav">
+        <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
       <ul class="menu">
         <li><a href="#" <?= home_url(); ?>>Home</a></li>
         <li><a href="#" <?= home_url(); ?>/find-a-doctor>Find A Doctor</a></li>
@@ -41,13 +39,13 @@
           <a href="#" <?= home_url(); ?>/about-us>About Us</a>
         </li>
 
-        <li class="dropdown">
+        <!-- <li class="dropdown">
           <a href="#">Media</a>
           <ul class="dropdown-menu">
             <li><a href="#">News</a></li>
             <li><a href="#">Specialized</a></li>
           </ul>
-        </li>
+        </li> -->
 
         <li class="dropdown">
           <a href="#" <?= home_url(); ?>/contact>Contact</a>
@@ -56,15 +54,14 @@
             <li><a href="#">Suggestion</a></li>
           </ul>
         </li>
-
-        <li><a href="#" <?= home_url(); ?>/national-day-offers>National Day Offers</a></li>
       </ul>
-    </nav>
-
-    <div class="actions">
+              <div class="actions">
       <a href="#" class="btn">Book an Appointment</a>
       <a href="#" class="lang"><i class="fa-solid fa-circle-user" style="color: #63E6BE; font-size: 28px;"></i></a>
     </div>
+    </nav>
+
+    
 
   </div>
 </div>
