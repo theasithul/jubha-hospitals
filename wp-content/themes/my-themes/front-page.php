@@ -5,7 +5,7 @@
     <?php wp_head(); ?>
 </head>
 
-<section class="hero">
+<!-- <section class="hero">
   <div class="container hero-grid">
 
     <div class="hero-text">
@@ -28,7 +28,34 @@
     </div>
 
   </div>
-</section>
+</section> -->
+<div class="slider">
+
+  <div class="slide active" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner.jpg');">
+    <div class="content">
+      <h1>Behind every continuous medical care</h1>
+      <p>Dedicated</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner2.jpg');">
+    <div class="content">
+      <h1>Easier Communication</h1>
+      <p>with Almana WhatsApp</p>
+      <a href="#" class="btn">Our Services</a>
+    </div>
+  </div>
+
+    <div class="slide" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner3.jpg');">
+      <div class="content">
+        <h1>Quality Healthcare Closer to You</h1>
+        <p>Almana Group of Hospitals</p>
+        <a href="#" class="btn">Contact Us</a>
+      </div>
+  </div>
+
+</div>
 
 
 <section class="services">
@@ -251,6 +278,22 @@
         </div>
     </div>
 </section>
+
+
+
+<script>
+  let slides = document.querySelectorAll('.slide');
+let index = 0;
+
+function autoSlide() {
+  slides[index].classList.remove('active');
+  index = (index + 1) % slides.length;
+  slides[index].classList.add('active');
+}
+
+setInterval(autoSlide, 4000); // 4 seconds
+
+</script>
 
 
 <?php get_footer(); ?>
