@@ -37,7 +37,6 @@
             <p class="contact-description">
                 If you want to find out more about our hospital, services, doctors, or departments,
                 please fill in the form below or email us at
-                <a href="mailto:info@yourhospital.com">info@yourhospital.com</a>.
             </p>
             <form class="contact-form" method="POST">
                 <div class="form-row">
