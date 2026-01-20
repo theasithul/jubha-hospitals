@@ -41,5 +41,8 @@ function myplugin_add_admin_menu() {
 }
 
 function myplugin_page_content() {
-    echo '<h1>My Plugin Page</h1>';
+    echo '<h1>wtf</h1>';
 }
+
+
+
