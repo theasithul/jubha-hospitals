@@ -32,7 +32,7 @@
 <div class="slider">
 
   <div class="slide active" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner.jpg');">
-    <div class="content">
+    <div class="content-1">
       <h1>Behind every continuous medical care</h1>
       <p>Dedicated</p>
       <a href="#" class="btn">Read More</a>
@@ -40,7 +40,7 @@
   </div>
 
   <div class="slide" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner2.jpg');">
-    <div class="content">
+    <div class="content-1">
       <h1>Easier Communication</h1>
       <p>with Almana WhatsApp</p>
       <a href="#" class="btn">Our Services</a>
@@ -48,7 +48,7 @@
   </div>
 
     <div class="slide" style="background-image: url('<?= get_template_directory_uri(); ?>/images/banner3.jpg');">
-      <div class="content">
+      <div class="content-1">
         <h1>Quality Healthcare Closer to You</h1>
         <p>Almana Group of Hospitals</p>
         <a href="#" class="btn">Contact Us</a>
