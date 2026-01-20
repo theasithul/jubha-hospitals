@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-<section class="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content container">
+<section class="hero1">
+    <div class="hero1-overlay"></div>
+    <div class="hero1-content container">
         <h1>Overview </h1>
-        <div class="breadcrumb">
+        <div class="breadcrumb1">
             <a href="">Home</a> / <a href="#">About Us</a> / Overview
         </div>
     </div>
