@@ -8,9 +8,7 @@
 <header class="header">
   <div class="container">
     <div class="menu-bar">
-    
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">☰</label>
+  
 
     <nav class="nav">
         <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
