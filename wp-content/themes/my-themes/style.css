@@ -264,7 +264,7 @@ body {
 
 }
 
-<<<<<<< HEAD
+
 .hero-grid {
   height: 100vh;
   margin-top: 30px;
@@ -272,12 +272,11 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
-=======
+}
 .hero-overlay {
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,0.45);
->>>>>>> refs/remotes/origin/front-page
 }
 
 .hero-content {
@@ -306,15 +305,13 @@ body {
     font-size: 13px;
 }
 
-<<<<<<< HEAD
 .hero-image img {
   width: 90%;
   border-top-left-radius: 100px;
-=======
+}
 .breadcrumb a {
     color: #fff;
     text-decoration: none;
->>>>>>> refs/remotes/origin/front-page
 }
 
 .content {
@@ -787,7 +784,7 @@ body {
         flex-direction: column;
     }
 }
-=======
+
 .stat-label {
   margin-top: 10px;
   font-size: 12px;
