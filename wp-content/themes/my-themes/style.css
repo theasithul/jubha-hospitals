@@ -299,17 +299,17 @@ body {
     text-decoration: none;
 }
 
-.content {
+.contents {
     display: flex;
     gap: 40px;
     padding: 60px 0;
 }
 
-.content-left {
+.contents-left {
     flex: 1;
 }
 
-.content-left h2 {
+.contents-left h2 {
     color: #0a6c6a;
     margin-bottom: 20px;
 }
@@ -334,11 +334,11 @@ body {
     top: -2px;
 }
 
-.content-right {
+.contents-right {
     flex: 1;
 }
 
-.content-right img {
+.contents-right img {
     width: 100%;
     border-radius: 6px;
 }
