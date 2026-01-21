@@ -11,8 +11,8 @@
 </section>
 
 
-<section class="content container">
-    <div class="content-left">
+<section class="content1 container">
+    <div class="content1-left">
         <h2>The Hospital</h2>
         <h4>Seven decades of care and quality</h4> <br>
         <span>Since our inception in 1949, we have a legacy of excellence. We are a family hospital fully dedicated to caring for the needs of the patients, communities, and Kingdom we serve to keep healthy. Almana believes in offering compassionate care, inspired by family values which has kept patients happier and healthier for over 75 years – this is a deeply ingrained part of our DNA. What’s more, our rich legacy of delivering person-centric, specialized, integrated, and comprehensive care, makes Almana a trusted institution and drives our journey to meet the growing needs of today and generations to come.</span> <br><br>
@@ -20,7 +20,7 @@
         <span>Providing exceptional healthcare and understanding our patients and partners is in our DNA. Over the years, we have developed our healthcare offering in line with the families and communities we have cared for, constantly adapting to their needs.</span>
     </div>
 
-    <div class="content-right">
+    <div class="content1-right">
         <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/JAAN8268.jpg" alt="Visitor Desk">
     </div>
 </section>
@@ -31,10 +31,10 @@
 </div>
 
 
-<div class="text-section">
-    <div class="text-hero">
+<div class="text1-section">
+    <div class="text1-hero">
         <p>Establishing itself as the center for healthcare excellence in the Kingdom, Almana presently employs more than 6,500+ highly qualified professionals including 800+ specialized doctors and has extended its services to operating and managing healthcare contracts in other regions of Saudi Arabia.</p>
-        <div class="text-box">
+        <div class="text1-box">
             <div class="box1">
                 <i class="fa-solid fa-user-tie"></i>
                 <h3>6600</h3>
@@ -44,7 +44,7 @@
                 <h3>900</h3>
             </div>
         </div>
-        <div class="text-box">
+        <div class="text1-box">
             <div class="box3">
                 <p>Qualified <br> professionals</p>
                 
@@ -105,12 +105,12 @@
     </div>
 </div>
 
-<section class="content container">
-    <div class="content-right">
+<section class="content1 container">
+    <div class="content1-right">
         <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/l_history_img_2.jpg" alt="Visitor Desk">
     </div>
 
-    <div class="content-left">
+    <div class="content1-left">
         <h2>The Visionary Behind </h2>
         <h4>Driven by the concern to provide healthcare services for the local community, Sheikh Mohammed Abdulla Almana opened the doors of the first healthcare center in the Eastern Province in 1949.</h4> <br>
         <span>The beginning was a humble effort. The Group began with modest sized clinics for dental and ophthalmic care. Over the decades these clinics expanded into five large independent ultra-modern hospitals with 3 additional specialized medical centers with out-patient services and medical dispensaries in the four major cities of the Eastern Province, namely, Al-Asha Dammam, Al-Khobar and Jubail. <br><br> To earn the Gold Certification, Almana had to meet Planetree's rigorous criteria. This criteria focused on quality in healthcare delivery, effective communication with patients and their families, compassion, transparency, inclusion, and a strong emphasis on partnership. <br><br> Almana’s exceptional team of healthcare professionals, state-of-the-art facilities, and advanced technologies were instrumental in meeting these criteria. Personalized care and patient empowerment are prioritized at Almana Hospital, fostering trust and dignity. <br><br> This Gold Certification validates Almana Hospital's unwavering dedication to person-centered care, creating an environment where patients and families feel empowered and engaged in their care journey. It positions them as a global leader in person-centered healthcare, setting the standard for excellence. <br><br> At Almana Hospital, the patient's voice is key in shaping their healthcare experience. They prioritize patient well-being and satisfaction, offering comprehensive and personalized care that exceeds expectations. By involving patients in their care decisions, Almana Hospital fosters a genuine partnership between patients and healthcare providers.</span> <br><br>

@@ -11,7 +11,7 @@
   
 
     <nav class="nav">
-        <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/jubha.png" alt="">
+        <img src="http://jubha-hospitals.test/wp-content/uploads/2026/01/mylogo.png" alt="">
       <ul class="menu">
         <li><a href="<?= home_url(); ?>">Home</a></li>
         <li><a href="<?= home_url(); ?>/find-a-doctor">Find A Doctor</a></li>
@@ -28,8 +28,8 @@
         <li class="dropdown">
           <a href="<?= home_url(); ?>/patient-information">Patient Information</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Patient</a></li>
-            <li><a href="#">Visitor Information</a></li>
+            <li><a href="/find-a-doctor/">Patient</a></li>
+            <li><a href="/patient-information/">Visitor Information</a></li>
           </ul>
         </li>
 
@@ -48,8 +48,8 @@
         <li class="dropdown">
           <a href="<?= home_url(); ?>/contact">Contact</a>
           <ul class="dropdown-menu">
-            <li><a href="#">Got In Touch</a></li>
-            <li><a href="#">Suggestion</a></li>
+            <li><a href="/contact/">Got In Touch</a></li>
+            <li><a href="/contact-suggestion/">Suggestion</a></li>
           </ul>
         </li>
       </ul>
